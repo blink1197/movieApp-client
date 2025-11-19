@@ -102,7 +102,7 @@ onBeforeMount(async () => {
 
     <!-- Empty / Not Found State -->
     <div v-else-if="movie.error" class="text-center my-5">
-      <img src="../assets/images/empty-box.png" alt="Not found" width="120" class="mb-3 opacity-75" />
+      <img src="/empty-box.png" alt="Not found" width="120" class="mb-3 opacity-75" />
       <h5 class="text-muted mb-3">Movie not found or no longer available.</h5>
       <router-link to="/Movies" class="btn btn-outline-danger">
         Back to Movies
