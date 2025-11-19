@@ -28,14 +28,9 @@
           </p>
         </div>
 
-        <!-- <router-link class="btn btn-outline-primary d-block mt-3" :to="`/movies/${props.movieData._id}`">
-          View Movie
-        </router-link> -->
-
-        <router-link class="btn btn-outline-primary d-block mt-3" :to="'/'">
+        <router-link class="btn btn-outline-primary d-block mt-3" :to="`/movies/${props.movieData._id}`">
           View Movie
         </router-link>
-
       </div>
 
     </div>

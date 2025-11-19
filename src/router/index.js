@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/MoviesView.vue'),
     },
     {
+      path: '/movies/:id',
+      component: () => import('../views/ViewMovie.vue')
+    },
+
+    {
       path: '/login',
       name: 'login',
       component: () => import('../views/LoginView.vue'),
@@ -31,6 +36,10 @@ const router = createRouter({
       component: () => import('../views/NotFoundView.vue'),
     },
   ],
+  scrollBehavior() {
+    // Always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router

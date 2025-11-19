@@ -48,7 +48,7 @@ onBeforeMount(() => {
 
 
 <template>
-  <div class="container mx-auto pt-md-3 pb-md-5">
+  <div class="container mx-auto pt-md-5 pb-md-5 mt-5">
     <div class="row align-items-center justify-content-center g-0">
       <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center px-4 py-5 p-md-5">
         <div class="w-100" style="max-width:720px;">

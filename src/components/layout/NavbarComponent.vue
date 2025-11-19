@@ -1,7 +1,7 @@
 <template>
   <nav class="container px-0" v-click-outside="handleClickOutside">
     <div class="navbar navbar-expand-md navbar-light bg-white fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <!-- Brand -->
         <router-link class="navbar-brand" to="/">
           <img class="img-fluid" src="/logo.png" alt="Phantom Reel Logo" height="44" />
